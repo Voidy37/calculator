@@ -93,4 +93,9 @@ class Memory:
         self.memory /= value
         self.history.append(f"/{value}")
 
+    def m_clear(self):
+        """Очистить память."""
+        self.memory = Decimal(0)
+        self.history.clear()
+
     
