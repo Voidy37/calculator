@@ -98,4 +98,12 @@ class Memory:
         self.memory = Decimal(0)
         self.history.clear()
 
+    def m_recall(self):
+        """Возвращает текущее значение из памяти."""
+        return self.memory
+
+    def get_history(self):
+        """Получить историю операций с памятью."""
+        return self.history
+
     
