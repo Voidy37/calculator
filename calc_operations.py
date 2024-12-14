@@ -48,4 +48,9 @@ def cosine(a):
     a = validate_decimal(a)  # Валидация
     return round(math.cos(math.radians(a)), 15)
 
+def floor_value(a):
+    return math.floor(a)
+
+def ceil_value(a):
+    return math.ceil(a)
 
